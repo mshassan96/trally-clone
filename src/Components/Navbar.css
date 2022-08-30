@@ -1,0 +1,68 @@
+.navbar {
+  position: "static";
+  width: "100%";
+  height: "30px"; 
+}
+
+.container.container-navbar {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  position: relative;
+  float: left;
+  text-decoration: none;
+  color: #333333;
+}
+
+.nav-link{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 16px;
+  color: #3c404b;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #1adace;
+}
+
+.nav-link-btn {
+  margin-top: 0px;
+  margin-left: 8px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  display: inline-block;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.brand-logo {
+  height: 40px;
+}
