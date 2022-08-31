@@ -46,23 +46,26 @@
   align-self: auto;
   display: inline-block;
 }
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+.mobile-menu-icon {
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media screen and (max-width: 991px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav-links {
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
 
-.brand-logo {
-  height: 40px;
+  .mobile-menu-icon {
+    display: block;
+  }
 }
